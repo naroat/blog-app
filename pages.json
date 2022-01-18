@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+	
+			}
+		}
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+        
+            }
+            
+        }
+        ,{
+            "path" : "pages/archive/archive",
+            "style" :                                                                                    
+            {
+              
+            }
+            
+        }
+        ,{
+            "path" : "pages/article/article",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ranblogs",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor":"#3ec1d3",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/buttom/bar-index.png",
+				"selectedIconPath": "static/buttom/bar-index-hover.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/archive/archive",
+				"iconPath": "static/buttom/bar-cate.png",
+				"selectedIconPath": "static/buttom/bar-cate-hover.png",
+				"text": "归档"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"iconPath": "static/buttom/bar-re.png",
+				"selectedIconPath": "static/buttom/bar-re-hover.png",
+				"text": "关于"
+			}
+		]
+	}
+	
+}
